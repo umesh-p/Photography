@@ -1,0 +1,95 @@
+<div ng-controller="insideHomeController" class="homeBackground" ng-init="initializePage();">
+
+ <div class="overlay"></div>
+  <div class="leftMenuDiv">
+      <div class="menuHead">The Studio</div>
+      <div class="menuItem" id="gallary0" ng-click="makeActive($event)">Gallary</div>
+      <div class="menuItem" id="PortFolio1" ng-click="makeActive($event)">PortFolio</div>
+      <div class="menuItem" id="aboutUs2" ng-click="makeActive($event)">About Us</div>
+      <div class="menuItem" id="aboutUs3" ng-click="makeActive($event)">Contact Us</div>
+      <div class="menuItem" id="Facebook4" ng-click="makeActive($event)">On facebook</div>
+      <div class="bottom">
+      <div class="menuItem" >Vishal Studio</div>
+      </div>
+  </div>
+  <div class="contentDivParent">
+  <div class="contentDiv0">
+        <div class="contentDivHeader">Photo Gallary</div>
+
+        <div class="gallaryPhotosContainer gallaryContainer" id="style-4">
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos" style="background-image:url('../images/gallaryimage1.jpg')"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+            <div class="gallaryPhotos"></div>
+        </div>
+      </div>
+      <div class="contentDiv1">
+            <div class="contentDivHeader">Portfolio</div>
+            <div class="gallaryPhotosContainer hideScroll" id="style-4">
+            </div>
+     </div>
+
+     <div class="contentDiv2">
+           <div class="contentDivHeader">About Us</div>
+           <div class="gallaryPhotosContainer hideScroll" id="style-4">
+
+               <section class="about">
+               <div class="profil">
+                 <img src="http://www.twobeards.se/erik3.jpg"/>
+               </div>
+               <h2>Vishal G</h2>
+               <h4>Pune, Maharashtra</h4>
+               <div class="outMenu">
+                 Contact Me : 8890090067
+              </div>
+               </section>
+
+           </div>
+    </div>
+
+    <div class="contentDiv3">
+          <div class="contentDivHeader">Contact Us</div>
+          <div class="gallaryPhotosContainer hideScroll" id="style-4">
+
+            <form class="form" id="form1">
+              <p class="name">
+                <input name="name" class="feedback-input" placeholder="Name" id="name" autocomplete="off" required/>
+              </p>
+              <p class="email">
+                <input name="email" class="feedback-input" id="email" placeholder="Email" autocomplete="off" required/>
+              </p>
+              <p class="text">
+                <textarea name="text" class="feedback-input" id="comment" placeholder="Message" autocomplete="off" required></textarea>
+              </p>
+              <div class="submit">
+                <input type="submit" value="Submit" id="button-blue"/>
+              </div>
+            </form>
+
+            <div id="contactIcon">
+              <a href="#"><span>Facebook</span></a>
+              <a href="#"><span>Twitter</span></a>
+              <a href="#"><span>Google+</span></a>
+              <a href="#"><span>Github</span></a>
+              <a href="#"><span>Dribbble</span></a>
+            </div>
+          </div>
+   </div>
+
+   <div class="contentDiv4">
+         <div class="contentDivHeader">Facebook</div>
+         <div class="gallaryPhotosContainer hideScroll" id="style-4">
+         </div>
+  </div>
+</div>
+
+
+</div>
